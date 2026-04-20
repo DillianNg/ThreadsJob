@@ -10,7 +10,9 @@ type Post = {
   createdAt: string;
 };
 
-export default function SearchPage() {
+export default function SearchPage() { {
+  return <div>Search</div>;
+}
   const params = useSearchParams();
   const q = params.get("q") || "";
 
