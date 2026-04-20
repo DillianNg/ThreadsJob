@@ -54,6 +54,3 @@ export default function SearchPage() {
 <p
   dangerouslySetInnerHTML={{ __html: post.content }}
 />
-export default function SearchPage() {
-  return <div>Search page</div>;
-}
