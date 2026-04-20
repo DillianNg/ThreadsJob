@@ -51,3 +51,6 @@ export default function SearchPage() {
     </div>
   );
 }
+<p
+  dangerouslySetInnerHTML={{ __html: post.content }}
+/>
